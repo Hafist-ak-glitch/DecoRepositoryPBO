@@ -20,4 +20,14 @@ public class DummyData {
 
         return adminList;
     }
+
+    public static ArrayList<Content> quizzes() {
+        ArrayList<Content> quizList = new ArrayList<>();
+
+        quizList.add(new Quis(1, "Energi Terbarukan", "Apa itu energi terbarukan?", "Sherlock Holmes"));
+        quizList.add(new Quis(2, "Panel Surya", "Bagaimana cara kerja panel surya?", "Watson"));
+        quizList.add(new Quis(3, "Efisiensi Energi", "Tips menghemat energi di rumah", "Sherlock Holmes"));
+
+        return quizList;
+    }
 }
